@@ -46,7 +46,7 @@ PowerShell script for Windows to:
 
 ## Usage
 
-Save as:
+Save as (or run directly on terminal):
 
 ```text
 update-python.ps1
