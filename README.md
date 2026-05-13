@@ -1,7 +1,7 @@
 
 
 
-# Update-All-Python-And-VSCode.ps1
+# update-python.ps1
 
 PowerShell script for Windows to:
 
@@ -49,21 +49,21 @@ PowerShell script for Windows to:
 Save as:
 
 ```text
-Update-All-Python-And-VSCode.ps1
+update-python.ps1
 ```
 
 Run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Update-All-Python-And-VSCode.ps1
+powershell -ExecutionPolicy Bypass -File .\update-python.ps1
 ```
 
 Optional:
 
 ```powershell
-.\Update-All-Python-And-VSCode.ps1 -ExtraSearchRoots "E:\Tools","F:\PortableApps"
-.\Update-All-Python-And-VSCode.ps1 -DeepSearch
-.\Update-All-Python-And-VSCode.ps1 -LogFile ".\python_update_log.txt"
+.\update-python.ps1 -ExtraSearchRoots "E:\Tools","F:\PortableApps"
+.\update-python.ps1 -DeepSearch
+.\update-python.ps1 -LogFile ".\python_update_log.txt"
 ```
 
 The script will:
